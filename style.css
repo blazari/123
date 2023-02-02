@@ -35,11 +35,11 @@ li{
     display: inline;
     font-size: 20px;
     padding: 25px;
-    transition: 0.6s;
+    transition: 0.8s;
 }
 li:hover{
     background-color: #FAEAA7;
-    transition: 0.6s;
+    transition: 0.8s;
 }
 a{
     text-decoration: none;
@@ -60,4 +60,33 @@ a:visited{
 h2{
     text-decoration: underline;
 }
-
+.koledy{
+    transition: 0.5s ease;
+}
+.koledy:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.ogloszenia{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    word-wrap: break-word;
+}
+.aktualnosci{
+    background-color: #FAEAA7;
+}
+.footer{
+    background-color: #fdbb6f;
+    width: 1000px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.mediaFooter{
+    float: left;
+    margin-left: 150px;
+}
